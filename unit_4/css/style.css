@@ -26,14 +26,19 @@ p {
     line-height: 1.5em;
 }
 
+.image-container {
+    width: 100%;
+}
 figure{
-    width:50%;
-    float: left;
+    width:40%;
     margin:0px;
     text-align:center;
     padding:0px;
 }
 
+.dogs {
+    width: 40%;
+}
 figcaption{
 	font-family: Eurostile;
 	font-weight: bold;
