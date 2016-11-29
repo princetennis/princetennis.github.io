@@ -1,0 +1,101 @@
+#wrapper {
+    background-color: #FFE2B8;
+    width: 960px;
+    margin: 0 auto;
+}
+
+body {
+    background: grey;
+}
+
+h1{
+    color: #0193E0;
+    font-size: 50px;
+    font-weight: 800;
+    text-align: center;
+    font-family: Eurostile, sans-serif;
+}
+
+.social {
+    height: 40px;
+    width: 40px;
+    float: right;
+    margin: 30px 5px;
+}
+
+
+p {
+    color: #04386F;
+    font-family:Eurostile,serif;
+    font-size: 25px;
+    text-align: center;
+    line-height: 1.5em;
+}
+
+nav {
+  background-color: #ff7900;
+  font-family: Arial, sans-serif;
+}
+
+a {
+  background-color: #ff7900;
+  color: white;
+  text-decoration: none;
+  display: block;
+  float: left;
+  padding: 20px;
+}
+
+a:hover {
+    background-color: #aaaaaa;
+}
+
+#banner {
+    width: 100%;
+    border: 1px Black Solid;
+}
+
+#two_column {
+    background-color: #FFB7CF;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+#left {
+    background-color: violet;
+    border: 1px black solid;
+    padding: 2%;
+    float: left;
+    width: 30%;
+}
+
+#right {
+    background-color: pink;
+    border: 1px black solid;
+    padding: 2%;
+    float: right;   
+    width: 58%;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+
+header {
+    border: 1px;
+    padding: 5px;
+}
+
+
+footer {
+    border: 1px red Solid;
+    width: 90%;
+    padding: 20px;
+    margin: 0 auto;
+}
