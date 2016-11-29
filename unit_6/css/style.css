@@ -56,13 +56,13 @@ a:hover {
 }
 
 #two_column {
-    background-color: #FFB7CF;
+    background-color: #FFE2B8;
     border: 1px black solid;
     padding: 20px;
 }
 
 #left {
-    background-color: violet;
+    background-color: white;
     border: 1px black solid;
     padding: 2%;
     float: left;
@@ -70,7 +70,7 @@ a:hover {
 }
 
 #right {
-    background-color: pink;
+    background-color: white;
     border: 1px black solid;
     padding: 2%;
     float: right;   
