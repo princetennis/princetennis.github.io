@@ -1,0 +1,153 @@
+#wrapper {
+    background-color: white;
+    width: 100%;
+    margin: 0 auto;
+}
+
+body {
+    background: grey;
+    font-size: 25px;
+}
+
+h1{
+    color: #0193E0;
+    font-size: 2em;
+    font-weight: 800;
+    text-align: center;
+    font-family: arial, sans-serif;
+    border: 2px black solid;
+    margin-bottom: 0.5em;
+    padding: 0.5em;
+}
+
+#logo {
+    width: 25%;
+}
+
+.social {
+    height: 6.5%;
+    width: 6.5%;
+    float: right;
+    margin: 3% 1%;
+}
+
+
+p {
+    color: #04386F;
+    font-family: arial,serif;
+    font-size: 1em;
+    text-align: center;
+    line-height: 1.5em;
+}
+
+nav {
+  background-color: #ff7900;
+  font-family: Arial, sans-serif;
+}
+
+a {
+  background-color: #ff7900;
+  color: white;
+  text-decoration: none;
+  display: block;
+  float: left;
+  padding: 1em;
+  font-size: 1em;
+}
+
+a:hover {
+    background-color: #aaaaaa;
+}
+
+#banner {
+    width: 100%;
+    border: 1px black solid;
+}
+
+#two_column {
+    background-color: white;
+    border: 1px black solid;
+    padding: 1em;
+}
+
+#left {
+    background-color: white;
+    border: 1px black solid;
+    padding: 2%;
+    float: left;
+    width: 30%;
+}
+
+#right {
+    background-color: white;
+    border: 1px black solid;
+    padding: 2%;
+    float: right;   
+    width: 58%;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+
+header {
+    border: 1px;
+    padding: 0.25em;
+}
+
+#iphone {
+    display: none;
+}
+
+
+footer {
+    border: 1px red solid;
+    width: 90%;
+    padding: 2%;
+    margin: 0 auto;
+}
+
+@media only screen and (max-width: 768px) {
+    #left, #right {
+        float: none;
+        width: auto;
+    }
+
+    nav a {
+        display: block;
+        text-align:center;
+        margin: 0;
+    }
+
+    body {
+        font-size: 20px;
+    }
+}
+
+ @media only screen and (max-width: 480px) {
+    #left, #right {
+        display: none;
+    }
+
+    nav a {
+        float: none;
+        display: block;
+        text-align:center;
+        margin: 0;
+    }
+
+    body {
+        font-size: 15px;
+    }
+
+    #iphone {
+        display: block;
+    }
+
+}
